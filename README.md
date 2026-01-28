@@ -143,12 +143,14 @@ These metrics provide a more complete picture than accuracy alone, especially fo
 ---
 
 ## Project Structure
-
+**Note: data_cleaning.py is unnecessary to include or download as the functions are included into the notebook.  
+It does contain useful functions for general data cleaning that I would import if it weren't on a notebook**
 ```
 Titanic-Survival-Prediction/
 │
 ├── notebook/
 │   └── Titanic EDA and Logistic Regression.ipynb
+├── data_cleaning.py
 ├── README.md
 └── requirements.txt
 ```
